@@ -69,7 +69,7 @@ const Posts = () => {
             try {
                 //fetching
                 const response = await fetch(
-                    "http://localhost:8080/api/v1/design",
+                    "https://shoppit-qzzx.onrender.com/api/v1/design",
 
                     {
                         //method

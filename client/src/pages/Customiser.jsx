@@ -95,7 +95,7 @@ const Customiser = () => {
         //response
         const response = await fetch(
           //fetching from api
-          "http://localhost:8080/api/v1/dalle",
+          "https://shoppit-qzzx.onrender.com/api/v1/dalle",
           //method
           {
             method: "POST",
@@ -167,7 +167,7 @@ const Customiser = () => {
         //from  here we are getting redirected to home
 
         const response = await fetch(
-          "http://localhost:8080/api/v1/design",
+          "https://shoppit-qzzx.onrender.com/api/v1/design",
           {
             method: "POST",
             headers: {
