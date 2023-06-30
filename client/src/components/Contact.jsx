@@ -34,9 +34,9 @@ const Contact = ({size,merchant,wait}) => {
 
   const sendConfirmationEmail = (name, email) => {
     // Replace with your own service and template IDs
-    const serviceId = 'service_il0ueg4';
-    const templateId = 'template_wcz1e4g';
-    const userId = 'd6CBqgeqPCYFCn7V3'; // You can get this from your emailjs account settings
+    const serviceId = process.env.SERVICE_ID;
+    const templateId = process.env.TEMPLATE_ID;
+    const userId = process.env.USER_ID; // You can get this from your emailjs account settings
   
     // Prepare the email parameters
     const templateParams = {
