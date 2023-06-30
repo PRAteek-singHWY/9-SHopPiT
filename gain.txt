@@ -1,0 +1,67 @@
+
+* initilaisation of all libraries and templates and * their installation with command --->                 " npm create vite@latest -- --template react client"
+
+
+*** packages --> npm install ***
+1-> three(3d three.js library)
+2-> @react-three/fiber(react renderer for three js library)
+3-> @react-three/drei(contains useful add-ons for recat 3 fiber) 
+4->maath(for useful math helpers linked to three.js) 5->valtio(really easily manages react states) 6->react-color(color-picker)
+7-> framer-motion(obviously for animations)
+
+* using tailwind 
+1->npm install -D tailwindcss postcss autoprefixer
+2->npx tailwindcss init -p
+3->just copy paste tailwind.config file from get strted documentation on tailwind.css
+4->copy tailwind css directives to index.css add at the top inside src
+5-> based upon past projects we are keeping our images, logos, 3-d models in public folder
+*6-> three js
+*7-> some files provided (without logic these are just assests and styles)
+*8-> entire application within two pages 
+1-> Home
+2-> Customiser
+s
+⭐️added my own cutomistion of showing hex code
+*9->{extension-github-pilot}
+
+
+
+* CREATING ENTIRE BACKEND SERVER to be able to call the API and then deliver the generated image to the client(FrontEnd)*
+backend->
+ * installing backend dependecies *
+
+npm init -y
+openai
+mongoose
+nodemon
+mongoDB
+express
+cloudinary
+dotenv
+cors -> co origin requests allowed with installation
+
+
+
+⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
+understanding how adn why POST and GET routes are working
+⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
+In a typical client-server architecture, you can use different HTTP methods (such as POST and GET) to communicate between your frontend and backend.
+
+When you have a route in your backend that accepts data via a POST request, you can use the corresponding HTTP method (POST) in your frontend to send the data to that route. This allows you to send user input, form data, or any other relevant information to the backend for processing or storage.
+
+Similarly, when you have a route in your backend that provides data via a GET request, you can use the corresponding HTTP method (GET) in your frontend to fetch that data from the backend. This allows you to retrieve information, lists of items, or any other data that is available from the backend.
+
+⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
+⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
+Additional Functionalities
+
+⭐️ AF-1 --> provided close buttons to all the Editor tabs the Color Picker -- the File Picker -- the Ai picker
+
+[----problems faced in AF-1 ---> just on bigger screens if shirt color is dark the "X" becomes white too due to contrast but since it's on lg screen and not mobile so that hwite cross over white screen wasn't visible----]
+
+
+⭐️ AF-2 --> adding routes from app.js for                  (-home-Posts-Customiser-)
+
+[----problems faced in AF-2 ---> had to go around to add conditional componenets o not render  Canvas componenet with posts but render it with both home page and customiser page , so that was it----]
+
+⭐️ AF-3 adding the created designs (uploading them to posts page ) and viewing them on posts page
