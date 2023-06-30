@@ -1,1 +1,5 @@
-# SHopPiT
+⭐️ShöpPiT⭐️
+
+Description---> ShöpPiT is an advanced and user-friendly web application that leverages the power of OpenAI's DALL·E to bring users' imaginative styles and designs to life. This project has evolved into a much-improved version, offering users increased flexibility and creative freedom to explore the capabilities of DALL·E and turn their ideas into reality.
+
+My Experience and Problems Faced---> Throughout the development of this project, I encountered various challenges and had the opportunity to learn and apply my skills. This project stands as the longest and most comprehensive one I have worked on so far. While I initially learned and developed the Home_Page and Customise features from YouTube tutorials, I took on the responsibility of implementing all the other pages, including the Designs_Page, Shopping_Page, Contact, Size Selection, Merchant Selection, and many more UI elements. Additionally, I handled the backend POST and GET calls, incorporated the usage of hooks, and integrated the functionality of mongoose and MongoDB. This project allowed me to consolidate my knowledge and apply it to a complex and multifaceted application.
